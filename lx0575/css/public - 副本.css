@@ -1,0 +1,49 @@
+body,ul,li,a,p,img,h2,h4{margin:0px;padding:0px;}
+ul,li{list-style:none;}
+img{border:none;}
+body{
+	/*background:url(../images/bg-body.gif) repeat-x left top;    */
+	/*background-color:#f1f1f1;*/
+	font-size:12px;
+	font-family:微软雅黑;
+	text-align:center;
+}
+.clear{clear:both;}
+/*box*/
+.box{ height:600px;width:1024px;margin:0px auto;text-align:left;}
+.box .header{height:52px;}
+
+.logo{ width:500px; height:52px;float:left; }
+.logo img{ padding-left:50px;}
+.header .menu{height:52px;line-height:52px;}
+.header .menu li{height:52px;float:left; margin-left:10px; margin-right:10px;text-align:center;font-size:12px;font-weight:bold;}  
+.header .menu a:link,.header .menu a:visited{width:73px;height:52px;color:#6b6b6b;display:block;text-decoration:none;}
+
+.header .menu a:hover{background:url(../images/menu_bg.jpg) no-repeat;color:#0C0; }
+
+
+.header .bigpic{ height:368px; background:url(../images/bigpic01.jpg);}
+.header .bigpicunder{ height:4px;background:url(../images/picunder.jpg);}
+
+
+.zhuti{ height:190px;  padding:10px 10px; border:1px solid #eee; }
+.bankuai{ height:170px; width:310px; float:left; margin:10px;  border:1px solid #eee;   }
+
+.jiespic{ width:326px; height:110px;float:left;  border:1px solid #eee;   }
+
+.engbiao{ height:30px;line-height:30px; font-size:14px; color:#09c439;}
+.chbiao{  height:30px;line-height:30px; font-size:14px; color:#666; padding-left:3px; }
+
+.xbiaoti{ height:14px;line-height:14px; font-size:12px; color:#063; padding-top:12px; font-weight:bolder; }
+.newstime{height:60px; width:37px; border-right:1px solid #eee; margin-top:20px;float:left;}
+.yueri{ font-size:10px; color:#666; font-weight:bolder;}
+.nian{ font-size:10px; color:#CCC;}
+.newscontent{ margin-top:20px; padding-left:45px; padding-right:5px; color:#666;}
+.more{ background:url(../images/ywpic00.jpg) no-repeat ; margin:10px; padding:0px 20px; height:12px; line-height:12px; font-size:6px; color:#063; }
+
+
+.ywpic0{ padding-top:12px; height:93px;}
+.pp{float:left;}
+.pp img{ width:130px; height:80px;}
+.ywpic0 .xbiaoti2{height:14px;line-height:14px; font-size:12px; color:#063;  font-weight:bolder; padding-left:145px;  }
+.newscontent2{padding-left:145px; margin-top:20px; color:#666;}
